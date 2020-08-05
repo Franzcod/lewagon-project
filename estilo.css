@@ -165,6 +165,7 @@ a{
     }
     .foto img{
         width: calc(9em + 1vw);
+	height: calc(9em + 1vw);
         margin: 3vw auto;
     }
     .detail{
