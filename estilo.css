@@ -160,11 +160,13 @@ a{
     }
 
     .foto{
-        width: 100%;
+        width: 30%;
+        margin: auto;
         
     }
     .foto img{
         width: calc(9em + 1vw);
+        height: calc(9em + 1vw);
         margin: 3vw auto;
     }
     .detail{
@@ -447,6 +449,8 @@ form input[type="submit"]{
 form input[type="submit"]:hover{
     cursor:pointer;
     background-color: aqua;
+    color: black;
+    font-weight: bold;
 }
 
 textarea{
@@ -459,6 +463,14 @@ textarea{
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
+}
+
+small{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .5vw;
+    text-align: end;
+    font-weight: bold;
 }
 
 /* FOOTER */
